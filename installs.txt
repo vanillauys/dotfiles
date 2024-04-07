@@ -1,0 +1,73 @@
+# Security
+
+1password
+1password-cli
+stow
+ufw
+fail2ban
+
+# Tools
+stacer-bin
+btop
+bleachbit
+gum
+unzip
+unrar
+zsh
+starship
+tlp
+tlp-rdw
+tlpui
+cbonsai
+sl
+neofetch
+
+# Messaging
+telegram-desktop
+slack-desktop
+discord
+
+# Browsers
+google-chrome
+brave-bin
+thorium-browser-bin
+firefox
+
+
+
+# Themes and fonts
+catppuccin-cursors-mocha
+catppuccin-konsole-theme
+noto-fonts
+noto-fonts-emoji
+noto-fonts-extra
+ttf-jetbrains-mono-nerd
+ttf-ubuntu-font-family
+ttf-ubuntu-mono-nerd
+
+
+# Developer tools
+jdk17-temurin
+python
+python-pip
+python-virtualenv
+yarn
+nodejs
+google-cloud-cli
+git
+gitg
+github-cli
+postman-bin
+dbeaver
+docker
+docker-compose
+zip
+
+
+# Editors
+
+intellij-idea-community-edition
+visual-studio-code-bin
+neovim
+vim
+
