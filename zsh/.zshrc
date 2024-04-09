@@ -36,11 +36,12 @@ alias dbup="cd glyde/backend/cbs-api/docker && ./up && cd .."
 alias fbranch='git branch | cut -c 3- | gum filter | xargs -I {} git checkout {} && git pull'
 alias ccbranch='git branch | grep "*" | cut -c 3- | clip'
 alias dbranch='git branch | cut -c 3- | gum choose --no-limit | xargs -I {} git branch -D {}'
+alias prs='gh pr list | cut -f1,2 | gum choose | cut -f1 | xargs gh pr checkout'
 alias fuckit="reset --hard"
 alias git="git "
 
 # Zoxide
-eval "$(zoxide init zsh)"
+eval "$(zoxide init --cmd cd zsh)"
 
 # ~/.zshrc
 eval "$(starship init zsh)"
