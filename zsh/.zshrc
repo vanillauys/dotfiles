@@ -3,6 +3,7 @@ export ZSH="$HOME/.oh-my-zsh"
 
 # Path
 export SSH_AUTH_SOCK=~/.1password/agent.sock
+export GOOGLE_APPLICATION_CREDENTIALS=~/.config/gcloud/application_default_credentials.json
 export PATH=$PATH:/var/lib/snapd/snap/bin
 
 source ~/.zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh
@@ -28,6 +29,7 @@ export NPMRC_TOKEN="op://Personal/Glyde GitHub Personal Access Token/token"
 
 # Aliases
 alias update="yay -Syyu --noconfirm && yay -Scc --noconfirm" 
+alias clip="xclip -selection clipboard"
 
 # Dev Aliases
 alias vim="nvim "

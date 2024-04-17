@@ -11,6 +11,7 @@ stacer-bin
 btop
 bleachbit
 gum
+clip
 unzip
 unrar
 zsh
