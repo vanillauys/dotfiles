@@ -26,6 +26,7 @@ fi
 
 # Environment variables
 export NPMRC_TOKEN="op://Personal/Glyde GitHub Personal Access Token/token"
+export GIT_KEY="op://Personal/Glyde GitHub Personal Access Token/token"
 
 # Aliases
 alias update="yay -Syyu --noconfirm && yay -Scc --noconfirm" 

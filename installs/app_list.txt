@@ -22,6 +22,8 @@ tlpui
 cbonsai
 sl
 neofetch
+cronie
+
 
 # Messaging
 telegram-desktop
@@ -63,6 +65,9 @@ dbeaver
 docker
 docker-compose
 zip
+
+#Applications
+onlyoffice-bin
 
 
 # Editors
