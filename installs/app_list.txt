@@ -23,6 +23,10 @@ cbonsai
 sl
 neofetch
 cronie
+spotify
+insync
+obs-studio
+
 
 
 # Messaging
@@ -64,6 +68,8 @@ postman-bin
 dbeaver
 docker
 docker-compose
+R
+rstudio-desktop-bin
 zip
 
 #Applications
