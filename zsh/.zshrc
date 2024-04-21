@@ -29,7 +29,7 @@ export NPMRC_TOKEN="op://Personal/Glyde GitHub Personal Access Token/token"
 export GIT_KEY="op://Personal/Glyde GitHub Personal Access Token/token"
 
 # Aliases
-alias update="yay -Syyu --noconfirm && yay -Scc --noconfirm" 
+alias update="yay -Syyu --noconfirm && yay -Scc --noconfirm && omz update" 
 alias clip="xclip -selection clipboard"
 
 # Dev Aliases
