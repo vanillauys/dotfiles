@@ -4,7 +4,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # Path
 export SSH_AUTH_SOCK=~/.1password/agent.sock
 export GOOGLE_APPLICATION_CREDENTIALS=~/.config/gcloud/application_default_credentials.json
-export PATH=$PATH:/var/lib/snapd/snap/bin
+export PATH=$PATH:/var/lib/snapd/snap/bin:/home/wihanu/.local/bin
 
 source ~/.zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh
 
@@ -25,8 +25,8 @@ fi
 
 
 # Environment variables
-export NPMRC_TOKEN="op://Personal/Glyde GitHub Personal Access Token/token"
-export GIT_KEY="op://Personal/Glyde GitHub Personal Access Token/token"
+export NPMRC_TOKEN="op://Glyde/Glyde GitHub Personal Access Token/token"
+export GIT_KEY="op://Glyde/Glyde GitHub Personal Access Token/token"
 
 # Aliases
 alias update="yay -Syyu --noconfirm && yay -Scc --noconfirm && omz update" 
@@ -48,3 +48,6 @@ eval "$(zoxide init --cmd cd zsh)"
 
 # ~/.zshrc
 eval "$(starship init zsh)"
+
+# Created by `pipx` on 2024-04-22 12:37:54
+export PATH="$PATH:/home/wihanu/.local/bin"
