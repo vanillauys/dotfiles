@@ -43,7 +43,6 @@ firefox
 
 # Themes and fonts
 catppuccin-cursors-mocha
-catppuccin-konsole-theme
 noto-fonts
 noto-fonts-emoji
 noto-fonts-extra
@@ -53,6 +52,7 @@ ttf-ubuntu-mono-nerd
 
 
 # Developer tools
+kitty
 jdk17-temurin
 python
 python-pip
@@ -72,13 +72,37 @@ rstudio-desktop-bin
 bleachbit
 
 #Applications
+qbittorrent
 onlyoffice-bin
 
 
 # Editors
 
+webstorm webstorm-jre
 intellij-idea-community-edition
 visual-studio-code-bin
+datagrip-jre ipython python-coverage python-pytest python-tox jupyter-server vagrant
+intellij-idea-ultimate-edition-jre
+pycharm-professional datagrip
 neovim
 vim
 
+
+# Stuff 
+
+ffmpeg xdotool x11-utils
+dracula-gtk-theme
+dracula-gtk-theme-full
+reflector-simple
+phoenixd-bin
+libxcrypt-compat
+variety
+python310
+python310
+fprintd
+libfprint-elanmoc2-working-git
+libfprint
+fprintd
+python-numpy
+cmatrix
+intellij-idea-ultimate-edition
