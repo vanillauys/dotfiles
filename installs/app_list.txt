@@ -25,6 +25,7 @@ cronie
 spotify
 insync
 obs-studio
+zoxide
 
 
 
